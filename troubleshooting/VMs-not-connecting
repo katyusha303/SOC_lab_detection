@@ -1,0 +1,5 @@
+One main important issue as well was the two VMs which are the kali Linux VM,the Wazuh Manager VM, and the main OS were not "reaching" each other.
+To start up, I purposely set both VMs to "bridged adapter network" so that each VM can have its own IP address within the network which will make the project more
+realistic (realizing each VM as a separate device). However, the main issue is that the connectivity test "ping" wasn't returning anything when done.
+When pinging my windows main OS from my kali and wazuh manager, nothing returned. This turned out to be a firewall/security restriction in windows settings that was 
+simply solved by allowing the ICMP protocol, which when i allowed, made the connectivity normal again and made all OSs reachable. 
