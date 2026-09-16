@@ -58,7 +58,11 @@ The first SQLMap run tested the id parameter for injection using multiple techni
 
 
 
-refer to images/sqlmap\_databases.png
+refer to images/sqli\_kaliTERMINAL01.png
+
+refer to images/sqli\_kaliTERMINAL02.png
+
+refer to images/sqli\_kaliTERMINAL05.png
 
 
 
@@ -74,7 +78,7 @@ With the injection confirmed, SQLMap was pointed at the dvwa database to list it
 
 
 
-refer to images/sqlmap\_tables.png
+refer to images/sqli\_kaliTERMINAL04.png
 
 
 
@@ -90,7 +94,7 @@ The final command dumped the user and password columns from users. SQLMap recogn
 
 
 
-refer to images/sqlmap\_dump\_credentials.png
+refer to images/sqli\_kaliTERMINAL03.png
 
 
 
@@ -122,7 +126,7 @@ Wazuh picked up the attack in real time via Apache log inspection. Rule 31106, "
 
 
 
-refer to images/wazuh\_alerts\_list.png
+refer to images/sqli\_wazuh01.png
 
 
 
@@ -130,7 +134,9 @@ Expanding the alert shows the full HTTP request as seen by Apache, including the
 
 
 
-refer to images/wazuh\_alert\_details.png
+refer to images/sqli\_wazuh02.png
+
+refer to images/sqli\_wazuh03.png
 
 
 
